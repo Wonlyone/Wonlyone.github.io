@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 /* CSS Document */
 
@@ -111,3 +112,118 @@ background: #CCCCCC;height：50px;line-height: 50px;font-size: 17px;}
 .waikuang001{background:url(images/beijing001.png);background-size:contain;}
 .history01{background-color:transparent;width:830px; height:853px; margin:0 auto;}
 .history01 img{position:relative;width:221px;height:270px  }
+=======
+@charset "utf-8";
+/* CSS Document */
+
+body{
+text-align:center;margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;}
+
+.window{width:800px;margin:0 auto;}
+.nav{position:absolute;width: 100%;margin: 0;}
+
+.logo img{position:absolute;}
+.nav ul{padding: 0;margin: 0;list-style: none;}
+/*这里必须设置内边距和外边距，因为浏览器会给ul设定默认值，会把导航栏挤歪*/
+.nav li{float: left;position :relative;}
+/*本来ul是竖直排列的，对所有li元素进行float:left他就会自动全部靠左*/
+.nav ul li a,.nav ul li a:hover {/*对所有项目a标签设置统一样式*/
+display: block;text-align: center;text-decoration: none;width: 176.8px;color: black;
+border: 1px solid #fff;/*边框大小和颜色 */
+border-width: 0px 0px 0 0;
+/*四个边框的宽度 ,注意，左右边框没有像素，仔细看导航栏左右有缝隙*/
+background: #CCCCCC;height：50px;line-height: 50px;font-size: 17px;}
+/*这里将height和line-height设置为一样的高度文字就会水平竖直居中 */
+.nav ul li:hover a {color: #fff;background: #CCCCFF;}
+/*这是一个css伪类，将鼠标移上去的时候字体和背景都会变色，移开又会变回来 */
+.nav ul li ul {display: none;}
+/*这是实现下拉菜单隐藏的关键*/
+.nav ul li:hover ul {display: block;position: absolute;top: 51px;left: 0;width: 185px;}/*这里就是弹出的下拉菜单了*/
+.nav ul li:hover ul li a {display: block;background: #CCFFFF;color: #000;}
+/*这里当然是定义下拉菜单里的a标签了*/
+.nav ul li:hover ul li a:hover {background: #dfc184;color: #000;} 
+/*下拉菜单a标签的伪类设置*/
+
+
+
+.Navigation{ background:#900; width:1360px; height:30px; margin:0 auto}
+/*内容*/
+
+
+.taitouyi{background:#FFFFFF;width:130px; height:63px; margin:0 auto;}
+.taitouyi p{position:absolute;left:50px;font-size:24px; }
+/*版块一抬头*/
+.content{ background:#ffffff; width:1330px; height:705px; margin:0 auto}
+/*第一版块*/
+.contentone{ background:#ffffff; width:1320px; height:300px; margin:0 auto}
+
+/*栏目一*/
+.lanmuyi{ background:#ffffff; width:421px; height:300px; float:left;border:2px solid #ff0000; margin:0 20 0 0}
+.lanmuyi img{position:relative;width:421px;height:270px}
+.lanmuyi a{text-decoration: none; color:  inherit}/*继承父类眼*/
+.lanmuheadyi{ background:#FF0000; width:421px;height:30px}
+.lanmunameyi{ width:225px;height:30px; float:left;}
+.lanmumoreer{ width:180px;height:30px; float:right;}
+.nameyi{ text-align:left; color:#ffffff; font-size:17px; margin:0 0 0 10}
+.moreyi{ text-align:right; color:#ffffff; font-size:17px; margin:0 0 0 100}
+/*栏目二*/
+.lanmuer{ background:#fff; width:421px; height:300px; float:left;border:2px solid #FF6600; margin:0 20 0 0}
+.lanmuer img{position:relative;width:421px;height:270px}
+.lanmuer a{text-decoration: none; color:  inherit}
+.lanmuheader{ background:#FF6600; width:421px;height:30px}
+.lanmunameer{ width:225px;height:30px; float:left}
+.lanmumoreer{ width:180px;height:30px; float:right;}
+.nameer{ text-align:left; color:#fff; font-size:17px; margin:0 0 0 10}
+.moreer{ text-align:right; color:#fff; font-size:17px; margin:0 0 0 100}
+/*栏目三*/
+.lanmusan{ background:#fff; width:421px; height:300px; float:right;border:2px solid #ff3300; margin:0 0 0 0}
+.lanmusan img{position:relative;width:421px;height:270px}
+.lanmusan a{text-decoration: none; color:  inherit}
+.lanmuheadsan{ background:#ff3300; width:421px;height:30px}
+.lanmunamesan{ width:240px;height:30px; float:left}
+.lanmumoresan{ width:180px;height:30px; float:right;}
+.namesan{ text-align:left; color:#fff; font-size:17px; margin:0 0 0 10}
+.moresan{ text-align:right; color:#fff; font-size:17px; margin:0 0 0 100}
+
+/*版块二抬头*/
+.taitouer{background:#FFFFFF;width:130px; height:63px; margin:0 auto;}
+.taitouer p{position:absolute;left:50px;font-size:24px; }
+
+/*第二版块*/
+.contenttwo{ background:#ffffff; width:1320px; height:300px; margin:0 auto}
+/*栏目四*/
+.lanmusi{ background:#fff; width:422px; height:300px; float:left;border:2px solid #FF9900; margin:0 20 0 0}
+.lanmuheadsi{ background:#FF9900; width:422px;height:30px}
+.lanmusi img{position:relative;width:421px;height:270px}
+.lanmusi a{text-decoration: none; color:  inherit}
+.lanmunamesi{ width:150px;height:30px; float:left}
+.namesi{ text-align:left; color:#ffffff; font-size:17px; margin:0 0 0 10}
+/*栏目五*/
+.lanmuwu{ background:#fff; width:421px; height:300px; float:left;border:2px solid #FFCC00; margin:0 20 0 0}
+.lanmuheadwu{ background:#FFCC00; width:421px;height:30px}
+.lanmunamewu{ width:240px;height:30px; float:left}
+.namewu{ text-align:left; color:#ffffff; font-size:14px; margin:0 0 0 10}
+
+/*栏目六*/
+.lanmuliu{ background:#fff; width:421px; height:300px; float:left;border:2px solid #F14C00; margin:0 0 0 0}
+.lanmuheadliu{ background:#F22C00; width:421px;height:30px}
+.lanmunameliu{ width:240px;height:30px; float:left}
+.nameliu{ text-align:left; color:#ffffff; font-size:14px; margin:0 0 0 10}
+ 
+/*底部*/
+.footer{background:#CCCCCC; width:1420px; height:80px; margin:0 auto}
+/*间隙*/
+.jianxi1{ background:#ffffff; height:105px; margin:0 auto}
+.jianxi2{ background:#ffffff; height:50px; margin:0 auto}
+.jianxi3{ background:#ffffff; height:0px; margin:0 auto}
+.jianxi4{ background:#ffffff; height:50px; margin:0 auto}
+.jianxi5{ background:#ffffff; height:114px; margin:0 auto}
+
+
+
+
+/*history的css*/
+.waikuang001{background:url(images/beijing001.png);background-size:contain;}
+.history01{background-color:transparent;width:830px; height:853px; margin:0 auto;}
+.history01 img{position:relative;width:221px;height:270px  }
+>>>>>>> 2523fbc6e54d6e6aa1dd58c888fb3fa17a146a46
