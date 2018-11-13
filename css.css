@@ -5,9 +5,11 @@ body{
 text-align:center;margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;}
 
 .window{width:800px;margin:0 auto;}
-.nav{position:absolute;width: 100%;margin: 0;}
+.nav{position:absolute;margin: 0;}
 
 .logo img{position:absolute;}
+
+
 .nav ul{padding: 0;margin: 0;list-style: none;}
 /*这里必须设置内边距和外边距，因为浏览器会给ul设定默认值，会把导航栏挤歪*/
 .nav li{float: left;position :relative;}
@@ -30,18 +32,14 @@ background: #CCCCCC;height：50px;line-height: 50px;font-size: 17px;}
 /*下拉菜单a标签的伪类设置*/
 
 
-
-.Navigation{ background:#900; width:1360px; height:30px; margin:0 auto}
-/*内容*/
-
-
+/*主要box*/
 .taitouyi{background:#FFFFFF;width:130px; height:63px; margin:0 auto;}
 .taitouyi p{position:absolute;left:50px;font-size:24px; }
 /*版块一抬头*/
 .content{ background:#ffffff; width:1330px; height:705px; margin:0 auto}
+
 /*第一版块*/
 .contentone{ background:#ffffff; width:1320px; height:300px; margin:0 auto}
-
 /*栏目一*/
 .lanmuyi{ background:#ffffff; width:421px; height:300px; float:left;border:2px solid #ff0000; margin:0 20 0 0}
 .lanmuyi img{position:relative;width:421px;height:270px}
@@ -75,35 +73,74 @@ background: #CCCCCC;height：50px;line-height: 50px;font-size: 17px;}
 .taitouer p{position:absolute;left:50px;font-size:24px; }
 
 /*第二版块*/
-.contenttwo{ background:#ffffff; width:1320px; height:300px; margin:0 auto}
+.contenttwo{ background:#ffffff; width:1390px; height:300px; margin:0 auto}
 /*栏目四*/
 .lanmusi{ background:#fff; width:422px; height:300px; float:left;border:2px solid #FF9900; margin:0 20 0 0}
 .lanmuheadsi{ background:#FF9900; width:422px;height:30px}
-.lanmusi img{position:relative;width:421px;height:270px}
+.lanmusi img{position:relative;width:426px;height:270px}
 .lanmusi a{text-decoration: none; color:  inherit}
 .lanmunamesi{ width:150px;height:30px; float:left}
 .namesi{ text-align:left; color:#ffffff; font-size:17px; margin:0 0 0 10}
-/*栏目五*/
-.lanmuwu{ background:#fff; width:421px; height:300px; float:left;border:2px solid #FFCC00; margin:0 20 0 0}
-.lanmuheadwu{ background:#FFCC00; width:421px;height:30px}
-.lanmunamewu{ width:240px;height:30px; float:left}
-.namewu{ text-align:left; color:#ffffff; font-size:14px; margin:0 0 0 10}
-
 /*栏目六*/
-.lanmuliu{ background:#fff; width:421px; height:300px; float:left;border:2px solid #F14C00; margin:0 0 0 0}
-.lanmuheadliu{ background:#F22C00; width:421px;height:30px}
-.lanmunameliu{ width:240px;height:30px; float:left}
-.nameliu{ text-align:left; color:#ffffff; font-size:14px; margin:0 0 0 10}
+.lanmuliu{ position:absolute;left:488px;top:580px;tbackground:#fff; width:210.5px; height:150px; float:left; margin:0 0 0 0}
+.lanmuliu img{width:200px;height:145px;}
+ /*栏目七*/
+ .lanmuqi{ position:absolute;left:712.5px;top:580px;background:#fff; width:210.5px; height:150px; float:left; margin:0 0 0 0}
+ .lanmunameqi{ width:240px;height:30px; float:left}
+.lanmuqi img{width:200px;height:145px;}
+ 
+ /*栏目八*/
+ .lanmuba{ position:absolute;left:935px;top:580px;background:#fff; width:210.5px; height:150px; float:left; margin:0 0 0 0}
+ .lanmunameba{ width:240px;height:30px; float:left}
+.lanmuba img{width:200px;height:145px;}
+ 
+ /*栏目九*/
+ .lanmujiu{ position:absolute;left:1159px;top:580px;background:#fff; width:210.5px; height:150px; float:left; margin:0 0 0 0}
+ .lanmunamejiu{ width:240px;height:30px; float:left}
+ .lanmujiu img{width:200px;height:145px;}
+
+ /*栏目十*/
+ .lanmuten{ position:absolute;left:488px;top:740px;background:#fff; width:210.5px; height:150px; float:left; margin:0 0 0 0}
+ .lanmunameten{ width:240px;height:30px; float:left}
+ .lanmuten img{width:200px;height:145px;}
+ 
+ /*栏目十一*/
+ .lanmuelven{ position:absolute;left:712.5px;top:740px;background:#fff; width:210.5px; height:150px; float:left; margin:0 0 0 0}
+ .lanmunameelven{ width:240px;height:30px; float:left}
+ .lanmuelven img{width:200px;height:145px;}
+
+ 
+ /*栏目十二*/
+ .lanmutwelve{ position:absolute;left:935px;top:740px;background:#fff; width:210.5px; height:150px; float:left;margin:0 0 0 0}
+ .lanmunametwelve{ width:240px;height:30px; float:left}
+ .lanmutwelve img{width:200px;height:145px;}
+
+ 
+ 
+ /*栏目十三*/
+ .lanmuthirteen{ position:absolute;left:1159px;top:740px;background:#fff; width:210.5px; height:150px; float:left;margin:0 0 0 0}
+ .lanmunamethirteen{ width:240px;height:30px; float:left}
+ .lanmuthirteen img{width:200px;height:145px;}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 /*底部*/
-.footer{background:#CCCCCC; width:1420px; height:80px; margin:0 auto}
+.footer{background:#CCCCCC; width:1419px; height:80px; margin:0 auto}
 /*间隙*/
 .jianxi1{ background:#ffffff; height:105px; margin:0 auto}
 .jianxi2{ background:#ffffff; height:50px; margin:0 auto}
 .jianxi3{ background:#ffffff; height:0px; margin:0 auto}
 .jianxi4{ background:#ffffff; height:50px; margin:0 auto}
 .jianxi5{ background:#ffffff; height:114px; margin:0 auto}
-
+.jianxi6{ background:#ffffff; height:214px; margin:0 auto}
 
 
 
@@ -111,3 +148,35 @@ background: #CCCCCC;height：50px;line-height: 50px;font-size: 17px;}
 .waikuang001{background:url(images/beijing001.png);background-size:contain;}
 .history01{background-color:transparent;width:830px; height:853px; margin:0 auto;}
 .history01 img{position:relative;width:221px;height:270px  }
+
+/*yixiandui的css*/
+.hezi001{background:white;}
+.hezi001 img{height:50%;weight:50%;}
+.qianfeng{    
+	float:left;
+	height:420px;
+    text-align: center;
+    line-height:25px;
+    font-size:15px;
+    background-color: #f7f7f7;}
+.zhongchang{  
+	float:left;
+	height:420px;
+    text-align: center;
+    line-height:32px;
+    font-size:15px;
+    background-color: #f7f7f7;}
+.houwei{    
+	float:left;
+	height:420px;
+    text-align: center;
+    line-height:32px;
+    font-size:15px;
+    background-color: #f7f7f7;}
+.menjiang{    
+	
+	height:550px;
+    text-align: center;
+    line-height:32px;
+    font-size:15px;
+    background-color: #f7f7f7;}
